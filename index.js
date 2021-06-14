@@ -7,4 +7,14 @@ function makeLine(size) {
   }
   return line;
 }
-console.log(makeLine(5));
+//console.log(makeLine(5));
+
+function makeSquare(size) {
+  let line = makeLine(5);
+  let square = "";
+  for (let i = 0; i <= size; i++) {
+  square += line + '\n';
+}
+return square;
+}
+console.log(makeSquare(4));
